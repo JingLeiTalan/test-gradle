@@ -1,0 +1,5 @@
+def javaHome = System.getProperty('java.home')                                                                                                                                                            
+println "Java Home: $javaHome"                                                                                                                                                                        
+System.getenv().each { key, value ->                                                                                                                                                                  
+        println "$key = $value"                                                                                                                                                                       
+}
